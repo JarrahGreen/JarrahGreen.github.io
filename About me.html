@@ -17,16 +17,30 @@
     <p>Hello</p>
 </div>
 
+<div id="2">
+    <p>My</p>
+</div>
+
+
 <script type="text/javascript">
 
     setTimeout(()=> {
         const text = document.getElementById('1');
         text.style.display='none';
-    },3000);
-
-
+    },2000);
 </script>
 
+<script>
+    setTimeout(()=> {
+        const text = document.getElementById('2');
+        text.style.display='none';
+    },1);
+    setTimeout(()=> {
+        const text = document.getElementById('2');
+        text.style.display='inline';
+    },2000);
+
+</script>
 
 </body>
 </html>
