@@ -1,25 +1,31 @@
-#Title {
-    color: aqua;
-    font-family: Calibri, serif;
-    font-size: 100px;
-    
-}
-
 .button {
-    background-color: blue;
-    border: black;
+    border: 5px solid black;
     color: black;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 30px;
+    font-size: 3em;
+    font-family: monospace;
 }
 
-p {
-    color: black;
+.container {display: inline-block;}
+
+.text {
+    font-size: 2em;
+    letter-spacing: 3px;
+    font-family: monospace;
+    border-right: 5px solid;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation:
+        typing 4s;
+
 }
 
-#2 {
-    display: none;
+
+
+@keyframes typing {
+    from {width: 0}
 }
