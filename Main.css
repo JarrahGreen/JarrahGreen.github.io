@@ -1,3 +1,29 @@
+body {
+    border: 5px solid black;
+}
+
+#NavBar {
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+
+.Title {
+    font-size: 15em;
+    text-align: center;
+    text-decoration: none;
+    font-family: monospace;
+    padding: unset;
+}
+
+.Sub-Title {
+    font-size: 3em;
+    text-align: center;
+    text-decoration: none;
+    font-family: monospace;
+}
+
 .button {
     border: 5px solid black;
     color: black;
@@ -7,11 +33,20 @@
     display: inline-block;
     font-size: 3em;
     font-family: monospace;
+    align-self: center;
+    background-color: aquamarine;
 }
 
-.container {display: inline-block;}
+.Center {
+    text-align: center;
+}
 
-.text {
+.container {
+
+    text-align: center;
+}
+
+p.in-view {
     font-size: 2em;
     letter-spacing: 3px;
     font-family: monospace;
@@ -23,8 +58,6 @@
         typing 4s;
 
 }
-
-
 
 @keyframes typing {
     from {width: 0}
