@@ -1,5 +1,10 @@
 body {
-    border: 5px solid black;
+    border: 5px solid white;
+}
+
+#LandingPage {
+    background-image: url("Images/2.jpg");
+
 }
 
 #NavBar {
@@ -8,9 +13,15 @@ body {
     transform: translate(-50%, 0);
 }
 
+.portfolioImage {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 
 .Title {
     font-size: 15em;
+    color: white;
     text-align: center;
     text-decoration: none;
     font-family: monospace;
@@ -19,13 +30,14 @@ body {
 
 .Sub-Title {
     font-size: 3em;
+    color: white;
     text-align: center;
     text-decoration: none;
     font-family: monospace;
 }
 
 .button {
-    border: 5px solid black;
+    border: 5px solid white;
     color: black;
     padding: 15px 32px;
     text-align: center;
@@ -41,7 +53,7 @@ body {
     text-align: center;
 }
 
-img {
+.portfolioImage {
     width: 480px;
     height: 240px;
 }
@@ -53,6 +65,7 @@ img {
 
 p.in-view {
     font-size: 2em;
+    color: white;
     letter-spacing: 3px;
     font-family: monospace;
     border-right: 5px solid;
