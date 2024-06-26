@@ -82,9 +82,11 @@ p.in-view {
 }
 
 codersrank-summary {
+    font-weight: bold;
+    font-family: monospace;
     --bg-color: transparent;
-    --badge-bg-color: #161616;
-    --badge-text-color: #fff;
+    --badge-bg-color: aquamarine;
+    --badge-text-color: black;
     --badges-padding: 0px;
     --badge-padding: 8px;
     --badge-margin: 16px;
