@@ -101,11 +101,10 @@ codersrank-activity {
     padding: 8px;
     background: transparent;
     --bg-color-0: white;
-    --bg-color-1: rgba(0,125,125, 1);
-    --bg-color-2: rgba(0,100,150, 1);
-    --bg-color-3: rgba(0,50,200, 1);
-    --bg-color-4: rgba(0,0,255, 1);
-    --label-text-color: red;
+    --bg-color-1: #57bfda;
+    --bg-color-2: #0179b7;
+    --bg-color-3: #032f9b;
+    --label-text-color: white;
 }
 
 codersrank-skills-chart {
