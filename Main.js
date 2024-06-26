@@ -19,3 +19,9 @@ document.addEventListener("DOMContentLoaded", () => {
     allAnimatedElements.forEach((element) => observer.observe(element));
 
 });
+
+
+
+//import CodersrankSummary from '@codersrank/summary';
+//window.customElements.define('codersrank-summary', CodersrankSummary);
+

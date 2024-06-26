@@ -8,5 +8,8 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="@codersrank/summary" level="application" />
+    <orderEntry type="library" name="@codersrank/activity" level="application" />
+    <orderEntry type="library" name="@codersrank/skills-chart" level="application" />
   </component>
 </module>
