@@ -11,5 +11,6 @@
     <orderEntry type="library" name="@codersrank/summary" level="application" />
     <orderEntry type="library" name="@codersrank/activity" level="application" />
     <orderEntry type="library" name="@codersrank/skills-chart" level="application" />
+    <orderEntry type="library" name="@codersrank/summary" level="application" />
   </component>
 </module>
