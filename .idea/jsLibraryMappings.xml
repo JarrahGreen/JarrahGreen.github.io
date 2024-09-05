@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="JavaScriptLibraryMappings">
-    <file url="PROJECT" libraries="{@codersrank/summary}" />
+    <file url="PROJECT" libraries="{@codersrank/activity, @codersrank/skills-chart, @codersrank/summary}" />
   </component>
 </project>
