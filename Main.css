@@ -16,8 +16,11 @@ body, html {
 }
 
 .portfolioImage {
-    padding-left: 10px;
-    padding-right: 10px;
+    border: 5px solid #57bfda;
+    align-content: center;
+    padding: 15px;
+
+
 }
 
 
