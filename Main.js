@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 
-
-//import CodersrankSummary from '@codersrank/summary';
-//window.customElements.define('codersrank-summary', CodersrankSummary);
+function googleTranslateElementInit() {
+    new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+}
 

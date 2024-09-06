@@ -1,0 +1,17 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    color: white;
+    background: black;
+    font-family: "Fira Code Medium", sans-serif;
+}
+
+#RunningClubWebsite {
+
+}
+
+
+.Title {
+    text-align: Left;
+
+}
