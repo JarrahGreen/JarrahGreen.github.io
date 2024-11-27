@@ -10,8 +10,21 @@ body, html {
 
 }
 
+.notBold {
+    font-weight: normal;
+}
+
 
 .Title {
     text-align: Left;
 
+}
+
+
+h1 {
+    font-size: 50px;
+}
+
+p {
+    font-size: 20px;
 }
