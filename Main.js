@@ -25,3 +25,12 @@ function googleTranslateElementInit() {
     new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
 }
 
+document.addEventListener('DOMContentLoaded', () => {
+    const mailButton = document.querySelector('#mailButton');
+
+    function mail() {
+        //console.log("");
+    }
+
+    mailButton.onclick = mail;
+});
