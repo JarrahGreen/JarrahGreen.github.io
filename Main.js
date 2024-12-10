@@ -6,9 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
                 entry.target.classList.add('in-view');
-                return;
             }
-            entry.target.classList.remove('in-view');
         });
     });
 
