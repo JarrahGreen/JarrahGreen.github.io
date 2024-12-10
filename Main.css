@@ -3,6 +3,10 @@ body, html {
     padding: 0;
 }
 
+br {
+    line-height: 10px;
+}
+
 #LandingPage {
     background-image: url("Images/2.jpg");
 
@@ -13,6 +17,10 @@ body, html {
     position: fixed;
     left: 50%;
     transform: translate(-50%, 0);
+}
+
+.top {
+    display: flex;
 }
 
 .portfolioImage {
@@ -30,7 +38,6 @@ body, html {
     text-align: center;
     text-decoration: none;
     font-family: monospace;
-    padding: unset;
 }
 
 .Sub-Title {
@@ -40,6 +47,51 @@ body, html {
     text-decoration: none;
     font-family: monospace;
 }
+
+.mouse {
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 50px;
+    height: 80px;
+    border: 2px solid white;
+    border-radius: 25px;
+    position: relative;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    background: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: scrollDot 1.5s infinite ease-in-out;
+}
+
+@keyframes scrollDot {
+    0% {
+        top: 10px;
+        opacity: 1;
+    }
+    40% {
+        top: 50px;
+        opacity: 1;
+    }
+
+    50% {
+        top: 50px;
+        opacity: 0;
+    }
+
+    100% {
+        top: 10px;
+        opacity: 0;
+    }
+}
+
+
 
 .button {
     border: 5px solid white;
