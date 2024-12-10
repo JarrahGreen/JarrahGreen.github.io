@@ -137,6 +137,10 @@ p.in-view {
     text-align: center;
 }
 
+#stats {
+    display: flex;
+}
+
 codersrank-summary {
     font-weight: bold;
     font-family: monospace;
