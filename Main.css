@@ -8,7 +8,7 @@ br {
 }
 
 #LandingPage {
-    background-image: url("Images/2.jpg");
+    background-image: url("Images/Background.jpg");
 
 }
 
@@ -27,8 +27,8 @@ br {
     border: 5px solid #57bfda;
     align-content: center;
     padding: 15px;
-
-
+    width: 480px;
+    height: 240px;
 }
 
 
@@ -104,11 +104,6 @@ br {
     font-family: monospace;
     align-self: center;
     background-color: aquamarine;
-}
-
-.portfolioImage {
-    width: 480px;
-    height: 240px;
 }
 
 .container {
