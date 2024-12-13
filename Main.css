@@ -1,3 +1,7 @@
+:root {
+    --primary-color: #57bfda;
+}
+
 body, html {
     margin: 0;
     padding: 0;
@@ -24,7 +28,7 @@ br {
 }
 
 .portfolioImage {
-    border: 5px solid #57bfda;
+    border: 5px solid var(--primary-color);
     align-content: center;
     padding: 15px;
     width: 480px;
@@ -103,7 +107,7 @@ br {
     font-size: 3em;
     font-family: monospace;
     align-self: center;
-    background-color: aquamarine;
+    background-color: var(--primary-color);
 }
 
 .container {
@@ -140,7 +144,7 @@ codersrank-summary {
     font-weight: bold;
     font-family: monospace;
     --bg-color: transparent;
-    --badge-bg-color: aquamarine;
+    --badge-bg-color: var(--primary-color);
     --badge-text-color: black;
     --badges-padding: 0px;
     --badge-padding: 8px;
