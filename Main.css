@@ -37,7 +37,7 @@ br {
 
 
 .Title {
-    font-size: 15em;
+    font-size: 13em;
     color: white;
     text-align: center;
     text-decoration: none;
@@ -46,6 +46,14 @@ br {
 
 .Sub-Title {
     font-size: 3em;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-family: monospace;
+}
+
+.portfolioText {
+    font-size: 4em;
     color: white;
     text-align: center;
     text-decoration: none;
