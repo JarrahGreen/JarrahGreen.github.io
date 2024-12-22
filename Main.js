@@ -24,11 +24,24 @@ function googleTranslateElementInit() {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-    const mailButton = document.querySelector('#mailButton');
+    const startButton = document.querySelector('#Start');
 
-    function mail() {
-        //console.log("");
+
+    function start() {
+        const root = document.querySelector('#Start')
+
+        const cursor = document.createElement('div')
+        cursor.classList.add('cursor')
+        root.appendChild(cursor)
+
+        root.addEventListener('mouseMove', (event) => {
+            setPosition(cursor, event)
+        });
     }
 
-    mailButton.onclick = mail;
+    function setPosition(element, e) {
+        element.style.transform = `translate3d(${e.clientX}px, ${e.clientY}px, 0)`
+    }
+
+    startButton.onclick = start;
 });

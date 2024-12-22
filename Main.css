@@ -184,3 +184,12 @@ codersrank-skills-chart {
     --label-font-size: 12px;
 }
 
+.cursor {
+    left: 0;
+    top: 0;
+    width: 10px;
+    height: 10px;
+    background-color: #f44336;
+    position: absolute;
+    border-radius: 5px;
+}
