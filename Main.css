@@ -8,7 +8,7 @@ body, html {
 }
 
 br {
-    line-height: 10px;
+    line-height: 100%;
 }
 
 #LandingPage {
@@ -20,7 +20,14 @@ br {
     z-index: 1;
     position: fixed;
     left: 50%;
-    transform: translate(-50%, 0);
+    top: 0;
+    transform: translateX(-50%);
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 5px;
+    width: 100%;
+    padding: 5px 0;
 }
 
 .top {
@@ -30,14 +37,14 @@ br {
 .portfolioImage {
     border: 5px solid var(--primary-color);
     align-content: center;
-    padding: 15px;
-    width: 480px;
-    height: 240px;
+    padding: 0.5%;
+    width: 25%;
+    height: 22%;
 }
 
 
 .Title {
-    font-size: 13em;
+    font-size: 13vw;
     color: white;
     text-align: center;
     text-decoration: none;
@@ -45,7 +52,7 @@ br {
 }
 
 .Sub-Title {
-    font-size: 3em;
+    font-size: 4vw;
     color: white;
     text-align: center;
     text-decoration: none;
@@ -53,7 +60,7 @@ br {
 }
 
 .portfolioText {
-    font-size: 4em;
+    font-size: 4vw;
     color: white;
     text-align: center;
     text-decoration: none;
@@ -108,14 +115,23 @@ br {
 .button {
     border: 5px solid white;
     color: black;
-    padding: 15px 32px;
+    padding: 1% 2%;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
-    font-size: 3em;
+    font-size: 3vw;
     font-family: monospace;
-    align-self: center;
     background-color: var(--primary-color);
+    white-space: nowrap;
+}
+
+@media (max-width: 600px) {
+    #NavBar {
+        flex-wrap: wrap;
+    }
+    .button {
+        font-size: 4vw;
+        padding: 3% 6%;
+    }
 }
 
 .container {
@@ -123,7 +139,7 @@ br {
 }
 
 p.in-view {
-    font-size: 2em;
+    font-size: 2vw;
     color: white;
     letter-spacing: 3px;
     font-family: monospace;
@@ -154,17 +170,18 @@ codersrank-summary {
     --bg-color: transparent;
     --badge-bg-color: var(--primary-color);
     --badge-text-color: black;
-    --badges-padding: 0px;
-    --badge-padding: 8px;
-    --badge-margin: 16px;
-    --badge-border-radius: 8px;
-    --badge-rank-font-size: 16px;
-    --badge-technology-font-size: 18px;
-    --badge-location-font-size: 16px;
-    --badge-icon-size: 32px;
-    --badge-border: 1px solid rgba(0, 0, 0, 0.1);
+    --badges-padding: 0;
+    --badge-padding: 0.5vw;
+    --badge-margin: 1vw;
+    --badge-border-radius: 0.5vw;
+    --badge-rank-font-size: 1vw;
+    --badge-technology-font-size: 1.2vw;
+    --badge-location-font-size: 1vw;
+    --badge-icon-size: 2vw;
+    --badge-border: 0.1vw solid rgba(0, 0, 0, 0.1);
     --badge-box-shadow: none;
 }
+
 
 codersrank-activity {
     padding: 8px;
