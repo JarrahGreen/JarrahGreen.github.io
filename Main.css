@@ -34,12 +34,21 @@ br {
     display: flex;
 }
 
-.portfolioImage {
-    border: 5px solid var(--primary-color);
-    align-content: center;
-    padding: 0.5%;
-    width: 30.5%;
-    height: 30.5%;
+/* centre the whole gallery */
+.center-container{
+    display:flex;
+    flex-wrap:wrap;            /* allow wrapping to new lines            */
+    justify-content:center;    /* centre images horizontally             */
+    gap: 0.5rem;               /* space between images (optional)        */
+    padding: 1rem 0;           /* breathing room top & bottom (optional) */
+}
+
+/* image styling */
+.portfolioImage{
+    width: 30.5vw;              /* or any fixed / max‑width you prefer    */
+    height:auto;               /* keep aspect ratio                      */
+    border:5px solid var(--primary-color);
+    box-sizing:border-box;     /* border included in the declared width  */
 }
 
 
