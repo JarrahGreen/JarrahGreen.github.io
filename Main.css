@@ -47,7 +47,7 @@ br {
 /* image styling */
 .portfolioImage{
     width: 30.5vw;              /* or any fixed / max‑width you prefer    */
-    height:auto;               /* keep aspect ratio                      */
+    height:30.5vw;               /* keep aspect ratio                      */
     border:5px solid var(--primary-color);
     box-sizing:border-box;     /* border included in the declared width  */
 }
