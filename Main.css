@@ -1,5 +1,6 @@
 :root {
     --primary-color: #57bfda;
+    --family: Helvetica Neue, serif;
 }
 
 body, html {
@@ -57,7 +58,7 @@ br {
     color: white;
     text-align: center;
     text-decoration: none;
-    font-family: monospace;
+    font-family: var(--family), serif;
 }
 
 .Sub-Title {
@@ -65,7 +66,7 @@ br {
     color: white;
     text-align: center;
     text-decoration: none;
-    font-family: monospace;
+    font-family: var(--family), serif;
 }
 
 .portfolioText {
@@ -73,7 +74,7 @@ br {
     color: white;
     text-align: center;
     text-decoration: none;
-    font-family: monospace;
+    font-family: var(--family), serif;
 }
 
 .mouse {
@@ -128,7 +129,7 @@ br {
     text-align: center;
     text-decoration: none;
     font-size: 3vw;
-    font-family: monospace;
+    font-family: var(--family), serif;
     background-color: var(--primary-color);
     white-space: nowrap;
 }
@@ -151,7 +152,7 @@ p.in-view {
     font-size: 2vw;
     color: white;
     letter-spacing: 3px;
-    font-family: monospace;
+    font-family: var(--family), serif;
     border-right: 5px solid;
     width: 100%;
     white-space: nowrap;
@@ -175,7 +176,7 @@ p.in-view {
 
 codersrank-summary {
     font-weight: bold;
-    font-family: monospace;
+    font-family: var(--family), serif;
     --bg-color: transparent;
     --badge-bg-color: var(--primary-color);
     --badge-text-color: black;
